@@ -16,7 +16,7 @@ const reasons = [
         gif: "gif1.gif"
     },
     {
-        text: "hep böyle ışık saçan biri olarak kal. tekrardan iyi ki doğdun",
+        text: "hep böyle ışık saçan biri olarak kal. tekrardan iyi ki doğdun.",
         emoji: "🌸",
         gif: "gif2.gif"
     }
