@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Beautiful Memories ✨</title>
+    <title>Güzel Anlarımız ✨</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
 
         * {
             margin: 0;
@@ -17,16 +17,16 @@
         body {
             min-height: 100vh;
             background: linear-gradient(135deg,
-                    #ffd1dc 0%,
-                    #e6e6fa 25%,
-                    #ffefd5 50%,
-                    #e6e6fa 75%,
-                    #ffd1dc 100%);
+                    #f6eadf 0%,
+                    #ead8c5 25%,
+                    #dfc4a7 50%,
+                    #d5b393 75%,
+                    #f0dfcf 100%);
             background-size: 400% 400%;
             animation: gradientFlow 15s ease infinite;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'Manrope', sans-serif;
             overflow-x: hidden;
-            color: #4a4a4a;
+            color: #3f2d20;
         }
 
         @keyframes gradientFlow {
@@ -118,7 +118,7 @@
         .heart {
             position: absolute;
             font-size: 1.5rem;
-            color: rgba(255, 105, 180, 0.6);
+            color: rgba(110, 74, 47, 0.55);
             animation: floatHeart var(--float-duration, 6s) ease-in-out infinite;
             animation-delay: var(--delay, 0s);
         }
@@ -142,9 +142,9 @@
         }
 
         .welcome h1 {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Manrope', sans-serif;
             font-size: 4rem;
-            color: #ff69b4;
+            color: #6e4a2f;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
             animation: fadeInScale 2s ease;
         }
@@ -209,13 +209,26 @@
             transition: transform 0.5s ease;
         }
 
+        .photo-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, #fffaf5, #f2e2d2);
+            border: 2px dashed #b9906a;
+            color: #6e4a2f;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+        }
+
         .memory-card:hover .memory-img {
             transform: scale(1.05);
         }
 
         .memory-date {
-            font-family: 'Dancing Script', cursive;
-            color: #ff69b4;
+            font-family: 'Manrope', sans-serif;
+            color: #6e4a2f;
             font-size: 1.3rem;
             margin-bottom: 0.5rem;
         }
@@ -223,14 +236,14 @@
         .memory-caption {
             font-size: 1rem;
             line-height: 1.5;
-            color: #666;
+            color: #4a3424;
         }
 
         /* Final Message Section */
         .final-message {
             text-align: center;
             padding: 4rem 2rem;
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 250, 245, 0.5);
             backdrop-filter: blur(10px);
             margin-top: 3rem;
             position: relative;
@@ -238,9 +251,9 @@
         }
 
         .final-message h2 {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Manrope', sans-serif;
             font-size: 3rem;
-            color: #ff69b4;
+            color: #6e4a2f;
             margin-bottom: 2rem;
             animation: heartbeat 2s infinite;
         }
@@ -268,20 +281,20 @@
             display: inline-block;
             padding: 1rem 2rem;
             font-size: 1.2rem;
-            background: linear-gradient(45deg, #ff69b4, #da70d6);
+            background: linear-gradient(45deg, #7a5436, #b17c4f);
             color: white;
             border: none;
             border-radius: 50px;
             cursor: pointer;
             text-decoration: none;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+            box-shadow: 0 5px 15px rgba(122, 84, 54, 0.35);
             animation: float 3s infinite ease-in-out;
         }
 
         .goodbye-btn:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
+            box-shadow: 0 8px 20px rgba(122, 84, 54, 0.5);
         }
 
         @keyframes float {
@@ -338,7 +351,7 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(45deg, #ff69b4, #da70d6);
+            background: linear-gradient(45deg, #7a5436, #b17c4f);
             border-radius: 6px;
         }
 
@@ -371,39 +384,24 @@
     </div>
 
     <section class="welcome">
-        <h1>Our Beautiful Moments Together</h1>
-        <p>Every moment spent with you has been magical. Let's cherish these precious memories ...</p>
+        <h1>umarım birlikte birsürü güzel anılarımız olur!!</h1>
     </section>
 
     <div class="memory-container">
         <div class="memory-card">
-            <img src="./d1.jpg" alt="First Date" class="memory-img">
-            <div class="memory-date">Her Smile Says It All</div>
-            <div class="memory-caption">You’re truly one of the sweetest girls I know, and I feel lucky to have a sis
-                like you.❤️</div>
+            <div class="memory-img photo-placeholder">buraya birlikte bir fotoğrafımız gelecek</div>
+
         </div>
         <div class="memory-card">
-            <img src="./d2.jpg" alt="Beach Day" class="memory-img">
-            <div class="memory-date">Together Vibes</div>
-            <div class="memory-caption">May your journey ahead be filled with happiness, success, and endless
-                smiles.😊💕</div>
+            <div class="memory-img photo-placeholder">buraya başka fotoğrafımız gelecek ndashfadlaslg</div>
         </div>
         <div class="memory-card">
-            <img src="./d3.jpg" alt="Movie Night" class="memory-img">
-            <div class="memory-date">Pretty Soul</div>
-            <div class="memory-caption">Keep being the amazing person you are—you make every moment brighter.🌸💖</div>
+            <div class="memory-img photo-placeholder">buraya da en sevdiğimiz anımızdan bir fotoğraf gelecek</div>
+
         </div>
 
     </div>
 
-    <section class="final-message">
-        <h2>Thank You for the Memories</h2>
-        <p>Every laugh, every chat, and every moment we’ve shared has been truly special.💫<br>
-            I’m so grateful for the bond we have, and for the positivity you always bring into my life.<br>
-            On your birthday, I just wish for endless happiness, love, and success to come your way.🌸</p>
-        <p>You deserve all the joy in the world—keep shining and spreading your beautiful energy.✨</p>
-        <a href="#" class="goodbye-btn">Until We Meet Again 💝</a>
-    </section>
 </body>
 
 </html>
