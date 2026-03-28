@@ -77,7 +77,7 @@ function displayNewReason() {
                             opacity: 0,
                             duration: 1,
                             onComplete: () => {
-                                window.location.href = 'last.html';
+                                window.location.href = `last.html?v=${Date.now()}`;
                             }
                         });
                     });
