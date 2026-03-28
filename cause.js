@@ -1,7 +1,7 @@
 ﻿// Reason cards
 const reasons = [
     {
-        text: "çok zarif, çok tatlı bi enerjin var. seni tanımak bana çok iyi geldi.",
+        text: "çok zarif, çok tatlı bi enerjin var. seninle tanıştığım için şanslıyım",
         emoji: "🌟",
         gif: "gif1.gif"
     },
