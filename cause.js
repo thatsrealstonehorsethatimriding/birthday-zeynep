@@ -7,7 +7,7 @@ const reasons = [
     },
     {
         text: "umarım yüzünden mutluluk hiçbir zaman eksik olmaz.",
-        emoji: "💖",
+        emoji: "❤️",
         gif: "gif2.gif"
     },
     {
